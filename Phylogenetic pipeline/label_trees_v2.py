@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from Bio import Phylo
 import re
 import os
