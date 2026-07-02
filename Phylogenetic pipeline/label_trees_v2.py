@@ -6,6 +6,11 @@ import os
 from pathlib import Path
 
 # ---------- INPUT ----------
+
+## species.txt needs to be the following tsv format: 
+#      Accession    Species    Family    Subfamily
+# e.g. NC_034680.1	Cynodon dactylon	Chloridoideae	Cynodonteae 
+
 species_file = "species.txt"
 output_dir = Path("labelled_trees")
 
