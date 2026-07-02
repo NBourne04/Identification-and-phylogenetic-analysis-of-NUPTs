@@ -3,6 +3,10 @@
 source /path/to/miniconda3/bin/activate
 source activate /path/to/apps/conda_envs/mamba/envs/seqkit
 
+################################################
+### This script calls 03-extract_best_hsp.py ###
+################################################
+
 module load Biopython
 
 Sample_info="samples.txt"
