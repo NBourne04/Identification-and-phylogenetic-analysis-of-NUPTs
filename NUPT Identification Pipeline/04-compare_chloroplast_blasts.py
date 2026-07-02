@@ -6,7 +6,7 @@ Purpose:
 Compare whether any foreign grass chloroplast genome has a BETTER hit
 than Alloteropsis semialata chloroplast to the SAME nuclear region.
 
-Usage: 04-compare_chloroplast_blasts.py self_blast foreign_blast
+Usage: 04-compare_chloroplast_blasts.py self_blast_filtered.out foreign_blast_filtered.out
 
 FORMAT REQUIRED (outfmt 6):
 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore
